@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: Test Project - UI apps
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: M1064221
+Implementation-Vendor-Id: com.mindtree.test
+Content-Package-Dependencies: adobe/cq60:core.wcm.components.content:2
+ .13.0,adobe/cq60:core.wcm.components.config:2.13.0
+Import-Package: com.mindtree.test.core.models;version="[1.0.0,2.0.0)",
+ org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+Content-Package-Type: application
+Content-Package-Description: UI apps package for Test Project
+Content-Package-Roots: /apps/msm/test_blueprint,/apps/test/clientlibs,
+ /apps/test/components,/apps/test/i18n
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_151
+Content-Package-Id: com.mindtree.test:test.ui.apps:0.0.1-SNAPSHOT
+

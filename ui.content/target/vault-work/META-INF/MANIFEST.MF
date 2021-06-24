@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: Test Project - UI content
+Content-Package-Roots: /conf/test,/content/dam/test,/content/experienc
+ e-fragments/test,/content/test
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: M1064221
+Implementation-Vendor-Id: com.mindtree.test
+Content-Package-Dependencies: com.mindtree.test:test.ui.apps:0.0.1-SNA
+ PSHOT
+Content-Package-Type: content
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_151
+Content-Package-Description: UI content package for Test Project
+Content-Package-Id: com.mindtree.test:test.ui.content:0.0.1-SNAPSHOT
+

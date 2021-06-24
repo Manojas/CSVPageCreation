@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.mindtree.test.core.config.DemoConfiguration">
+  <OCD id="com.mindtree.test.core.config.DemoConfiguration" name="DemoConfiguration" description="Demo Configuration">
+    <AD id="getName" type="String" name="Name" description="Enter your name" default="john"/>
+    <AD id="getIsIndian" type="Boolean" name="Indian" description="Are you indian" default="true"/>
+    <AD id="getGender" type="String" name="Gender" description="Select your Gender" default="Male">
+      <Option label="Male" value="Male"/>
+      <Option label="FeMale" value="FeMale"/>
+      <Option label="Others" value="Others"/>
+    </AD>
+    <AD id="getLanguages" type="String" cardinality="2147483647" name="Languages" description="Enter the Languages you know" default="Java"/>
+  </OCD>
+  <Designate pid="com.mindtree.test.core.services.DemoServiceImpl">
+    <Object ocdref="com.mindtree.test.core.config.DemoConfiguration"/>
+  </Designate>
+</metatype:MetaData>

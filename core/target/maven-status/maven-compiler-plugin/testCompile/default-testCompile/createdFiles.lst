@@ -1,0 +1,5 @@
+com\mindtree\test\core\models\HelloWorldModelTest.class
+com\mindtree\test\core\listeners\SimpleResourceListenerTest.class
+com\mindtree\test\core\filters\LoggingFilterTest.class
+com\mindtree\test\core\schedulers\SimpleScheduledTaskTest.class
+com\mindtree\test\core\servlets\SimpleServletTest.class

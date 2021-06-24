@@ -1,0 +1,19 @@
+<h2>Sling model example</h2>
+<div data-sly-use.cd="com.mindtree.test.core.models.SlingModelImpl"></div>
+</ul>
+<ul>
+<li>Page title is:${cd.pageTitle} </li>
+<li>HomePage is:${cd.homePage} </li>
+<li>Modified is:${cd.lastModified} </li>
+</ul>
+<ul data-sly-list.item="${cd.names}">
+<li>Names are:${item}</li>
+
+
+<h3>Path Node:${cd.pathBrowser}</h3>
+<h3>Nationality:${cd.isIndian}</h3>
+<h3>Gender: ${cd.gender}</h3>
+
+
+
+</ul>

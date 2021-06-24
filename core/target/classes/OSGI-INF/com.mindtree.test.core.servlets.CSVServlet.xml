@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mindtree.test.core.servlets.CSVServlet">
+  <property name="sling.servlet.paths" type="String">/bin/newCsvHit</property>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <reference name="newCsvPageCreate" interface="com.mindtree.test.core.services.NewCSVPageCreate" field="newCsvPageCreate"/>
+  <implementation class="com.mindtree.test.core.servlets.CSVServlet"/>
+</scr:component>

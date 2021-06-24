@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Test Project - All</comment>
+<entry key="createdBy">M1064221</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">test.all</entry>
+<entry key="created">2021-06-23T06:03:36.601+05:30</entry>
+<entry key="groupId">com.mindtree.test</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="cloudManagerTarget">all</entry>
+<entry key="group">com.mindtree.test</entry>
+<entry key="description">All content package for Test Project</entry>
+<entry key="artifactId">test.all</entry>
+</properties>

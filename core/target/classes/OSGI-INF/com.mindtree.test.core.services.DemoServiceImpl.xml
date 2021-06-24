@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.mindtree.test.core.services.DemoServiceImpl" immediate="true" activate="activate">
+  <property name="getName" type="String" value="john"/>
+  <property name="getIsIndian" type="Boolean" value="true"/>
+  <property name="getGender" type="String" value="Male"/>
+  <property name="getLanguages" type="String">Java</property>
+  <service>
+    <provide interface="com.mindtree.test.core.services.DemoService"/>
+  </service>
+  <implementation class="com.mindtree.test.core.services.DemoServiceImpl"/>
+</scr:component>
